@@ -1,0 +1,9 @@
+* { 
+    color: red; 
+    outline-style: double;
+} 
+
+h1, h2 {
+    color: blue;
+}
+
