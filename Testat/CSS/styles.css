@@ -1,0 +1,14 @@
+body {
+    background-color: #001514;
+    color: #DEDEE0;
+}
+
+
+/*.schriftfarbe,h1,h2,h3,h4,h5,h6 {
+    color: #DEDEE0;
+}
+*/
+#portfolio_picture {
+    width: 50%;
+    min-width: 400px;
+}
