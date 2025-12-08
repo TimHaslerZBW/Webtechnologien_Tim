@@ -41,9 +41,25 @@ body {
     background-color: #3FA34D;
 }
 
-table {
+.lebenslauf {
     outline-color: #3FA34D;
+    background-color: rgba(42, 145, 52, 30%);
     padding: 10px;
     outline-style: solid;
     outline-width: 5px;
+    max-width: 30%;
+    min-width: 280px;
+}
+.lebenslauf_1_linie {
+    display: flex;
+    margin: 0px;
+}
+.lebenslauf_1_linie p {
+    box-sizing: border-box ;
+    width: 140px;
+}
+
+.labelwidth {
+    width: 80px;
+    display: inline-block;
 }
