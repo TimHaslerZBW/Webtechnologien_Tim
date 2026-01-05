@@ -1,0 +1,28 @@
+ol li {
+    font-family: arial, verdana, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    line-height: 1.3em;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+    text-shadow: 1px 1px 0px gray;
+    text-align: left;
+}
+
+
+/*
+Eine eigenes Zeichen als Auflistung verwenden:
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "X";
+}
+*/
+ul li {
+    display: inline;
+}
