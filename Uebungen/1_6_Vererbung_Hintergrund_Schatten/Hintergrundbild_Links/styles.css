@@ -1,0 +1,15 @@
+p {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    /*background-image: url("angelika_mergel.jpg") ;/*HIntergrundbild*/
+    /*background-repeat: repeat-y;*/
+
+    background-image: linear-gradient(black, white);
+}
+
+:focus{
+    border: 10px solid black;
+}
+
+h3 > a

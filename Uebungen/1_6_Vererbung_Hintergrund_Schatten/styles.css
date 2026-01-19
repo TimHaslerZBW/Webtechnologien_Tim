@@ -1,0 +1,36 @@
+div{
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+p{
+    background-color: green;
+    padding: inherit;
+}
+
+td {
+    border: 1px solid black;
+}
+
+table{
+    /*border-collapse: collapse; /* Tabellenfelder sind ohne Abstand aneinandergereiht */
+    
+    border-spacing: 5px;/* Abstand zwischen den Tabellenfelder*/
+}   
+
+th {
+    text-transform: uppercase;
+    border-bottom: 2px solid blue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightpink;
+}
+
+tr:hover {
+    background-color: blanchedalmond;
+}
+td:hover {
+    background-color: blueviolet;
+}
