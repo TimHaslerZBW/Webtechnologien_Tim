@@ -1,0 +1,46 @@
+/*Allgemeiner Start über normalize.css*/
+@import url(normalize.css);
+
+/* Meine Anpassungen */
+:root {
+    --standardpadding: 5px;
+}
+
+/*Elemente*/
+/*
+td, li {
+    padding: var(--standardpadding);
+}
+
+
+li {
+    border: 1px solid red;
+}
+*/
+.border {
+    border: 1px solid red;
+}
+.border div {
+    background-color: green;
+    margin: 2px;
+    width: 100px;
+    float: right;
+}
+
+.pos {
+    /*position: absolute; /*Position ausgehend von der Webseite Oben Links (scrollt mit)*/
+    /*position: fixed; /*Position ausgehend von der Webseite oben Links aber fix (scrollt nicht mit)*/
+    /*position: relative; /*Position ausgehend vom vorherigen Element*/
+    /*
+    top: 10px;
+    left: 20px;
+    */
+    
+    /* Sagt dem Element, dass in diesem Fall auf der Rechten seite des Elements kein weiteres Element folgen darf */
+    /*clear: right; /* Hängt zusammen mit float: right Die Werte müssen gleich Sein damits funktioniert*/
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}

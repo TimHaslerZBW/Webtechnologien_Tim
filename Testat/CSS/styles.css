@@ -21,7 +21,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1F7A8C;
+    /*background-color: #1F7A8C; */
+    background-image: linear-gradient(#1F7A8C, #001514);
 }
 
 .navbar a {
@@ -38,6 +39,7 @@ body {
 
 .navbar a.active {
     background-color: #2A9134;
+    padding: 20px;
 }
 
 .navbar a:hover {
@@ -82,6 +84,11 @@ body {
 
 }
 
+.button_align_right {
+    margin-right: 0px;
+    margin-left: auto;
+    display: block;
+}
 
 .comic-neue-light {
     font-family: "Comic Neue", cursive;

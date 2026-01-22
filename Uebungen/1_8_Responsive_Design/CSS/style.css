@@ -1,0 +1,43 @@
+/*Allgemeiner Start über normalize.css*/
+@import url(normalize.css);
+/*
+body {
+    background-color: red;
+}
+*/
+
+
+.flexcontainer {
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexitem {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flexitem:nth-child(1){
+    order: 2;
+}
+.flexitem:nth-child(2){
+    order: 1;
+}
+/*
+@media screen and (min-width: 400px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+*/
