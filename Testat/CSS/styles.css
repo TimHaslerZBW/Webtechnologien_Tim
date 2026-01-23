@@ -1,127 +1,47 @@
+/*Font importieren*/
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:wght@600&display=swap');
 
+/*Allgemeiner Start über normalize.css*/
+@import url(normalize.css); 
 
-body {
-    background-color: #001514;
-    color: #DEDEE0;
-}
+/*Schriftart*/
+@import url(schriftart.css);
+
+/*Styles für alle Seiten*/
+@import url(hauptstyles.css);
+
+/* Seitenstyles */
+@import url(index.css);
+@import url(ueber_mich.css);
+@import url(feedback.css);
+@import url(newsartikel.css);
 
 
-/*.schriftfarbe,h1,h2,h3,h4,h5,h6 {
-    color: #DEDEE0;
-}
-*/
-#portfolio_picture {
-    width: 50%;
-    min-width: 400px;
-}
 
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /*background-color: #1F7A8C; */
-    background-image: linear-gradient(#1F7A8C, #001514);
-}
 
-.navbar a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+/*Graceful Degration Prinzip*/
 
-.navbar li {
-    float: left;
-}
-
-.navbar a.active {
-    background-color: #2A9134;
-    padding: 20px;
-}
-
-.navbar a:hover {
-    background-color: #3FA34D;
-}
-
-.lebenslauf {
-    outline-color: #3FA34D;
-    background-color: rgba(42, 145, 52, 30%);
-    padding: 10px;
-    outline-style: solid;
-    outline-width: 5px;
-    max-width: 30%;
-    min-width: 280px;
-}
-.lebenslauf_1_linie {
-    display: flex;
-    margin: 0px;
-}
-.lebenslauf_1_linie p {
-    box-sizing: border-box ;
-    width: 140px;
-}
-
-.labelwidth {
-    width: 80px;
-    display: inline-block;
-}
-
-.articlecontainer {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #1f7a8c;
-}
-.articlecontainer article {
-    box-sizing: border-box;
-    width: 400px;
-    margin: 10px;
-    padding: 5px 10px 2px;
-    background-color: #dedee0;
-    color: #001514;
+@media screen and (max-width: 1050px) { /*Tablet*/
+    body{
+        /*background-color: yellow;*/
+    }
+    .navbar {
+        justify-content: left;
+    } 
 
 }
 
-.button_align_right {
-    margin-right: 0px;
-    margin-left: auto;
-    display: block;
+
+@media screen and (max-width: 450px) { /*Phone*/
+    body{
+       /* background-color: blue;*/
+        
+    }
+    .navbar li {
+        float: none;
+    }
+    .navbar {
+        display: flow-root;
+    } 
 }
 
-.comic-neue-light {
-    font-family: "Comic Neue", cursive;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .comic-neue-regular {
-    font-family: "Comic Neue", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .comic-neue-bold {
-    font-family: "Comic Neue", cursive;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .comic-neue-light-italic {
-    font-family: "Comic Neue", cursive;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .comic-neue-regular-italic {
-    font-family: "Comic Neue", cursive;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .comic-neue-bold-italic {
-    font-family: "Comic Neue", cursive;
-    font-weight: 700;
-    font-style: italic;
-  }

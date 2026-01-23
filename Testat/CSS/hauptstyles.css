@@ -1,0 +1,36 @@
+/* Hauptstyles*/
+body {
+    background-color: #001514;
+    color: #DEDEE0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;    
+    background-image: linear-gradient(#1F7A8C, #001514);
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a.active {
+    background-color: #2A9134;
+    padding: 20px;
+}
+
+.navbar a:hover {
+    background-color: #3FA34D;
+}

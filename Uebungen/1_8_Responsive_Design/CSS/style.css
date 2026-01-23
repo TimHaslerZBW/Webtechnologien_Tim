@@ -20,7 +20,7 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
 }
-
+/*
 .flexitem:nth-child(1){
     order: 2;
 }

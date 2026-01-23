@@ -1,0 +1,31 @@
+.articleflexcontainer {
+    background-image: linear-gradient(#001514, #1F7A8C, #001514);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+}
+.articleflexcontainer article {
+    box-sizing: border-box;
+    width: 400px;
+    margin: 10px;
+    padding: 5px 10px 2px;
+    background-color: #dedee0;
+    color: #001514;
+
+}
+
+.button_align_right {
+    margin-right: 0px;
+    margin-left: auto;
+    display: block;
+}
+
+.button_align_right:focus, article a:focus {
+    color: #3FA34D;
+    font-weight: bold; 
+}
+
+.button_align_right:focus {
+    border:5px solid #2A9134;   
+}
