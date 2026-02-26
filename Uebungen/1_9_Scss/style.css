@@ -1,0 +1,23 @@
+body {
+  background-color: green;
+}
+
+.info {
+  background: green;
+  font-size: 20px;
+  letter-spacing: 1.5;
+}
+
+.alert {
+  background: red;
+  font-size: 20px;
+  letter-spacing: 1.5;
+}
+
+.big {
+  background: green;
+  font-size: 30px;
+  letter-spacing: 1.5;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -7,17 +7,42 @@
 .lebenslauf {
     outline-color: #3FA34D;
     background-color: rgba(42, 145, 52, 30%);
-    padding: 10px;
-    outline-style: solid;
-    outline-width: 5px;
-    max-width: 30%;
-    min-width: 280px;
+    grid-template-columns: 200px 100px 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header1 header2 header3"
+    "pos11   pos12   pos13"
+    "pos21   pos22   pos23";
+    display: grid;
+    justify-content: start;        
 }
-.lebenslauf_1_linie {
-    display: flex;
-    margin: 0px;
+
+.lebenslauf_header1 {
+    grid-area: header1;
 }
-.lebenslauf_1_linie p {
-    box-sizing: border-box ;
-    width: 140px;
+.lebenslauf_header2 {
+    grid-area: header2;
+}
+.lebenslauf_header3 {
+    grid-area: header3;
+}
+
+.lebenslauf_pos11 {
+    grid-area: pos11;
+}
+.lebenslauf_pos12 {
+    grid-area: pos12;
+}
+.lebenslauf_pos13 {
+    grid-area: pos13;
+}
+
+.lebenslauf_pos21 {
+    grid-area: pos21;
+}
+.lebenslauf_pos22 {
+    grid-area: pos22;
+}
+.lebenslauf_pos23 {
+    grid-area: pos23;
 }
