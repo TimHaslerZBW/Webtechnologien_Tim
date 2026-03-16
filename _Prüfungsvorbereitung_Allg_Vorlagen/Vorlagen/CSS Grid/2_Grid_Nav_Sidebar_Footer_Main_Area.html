@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--Erstellen Sie ein Layout mit einem Header, einem Sidebar-Bereich auf der linken Seite, einem Hauptinhalt und einem Footer. 
+Verwenden Sie benannte Bereiche für eine klare Struktur.-->
+<html>
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header'
+                'sidebar main main'
+                'footer footer footer';
+            grid-gap: 10px;
+            height: 100vh;
+        }
+        .header { grid-area: header; background: skyblue; }
+        .sidebar { grid-area: sidebar; background: lightgreen; }
+        .main { grid-area: main; background: lightgrey; }
+        .footer { grid-area: footer; background: coral; }
+    </style>
+</head>
+<body>
+
+<div class="grid-container">
+    <div class="header">Header</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="main">Main content</div>
+    <div class="footer">Footer</div>
+</div>
+
+</body>
+</html>
+ 
